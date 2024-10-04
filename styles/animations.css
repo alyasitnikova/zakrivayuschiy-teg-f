@@ -69,16 +69,6 @@
   transition: fill 0.3s linear 0.05s;
 }
 
-.like-icon .core {
-  transition: fill 0.3s linear;
-  fill: var(--bg-color);
-}
-
-.like-icon .main-body {
-  transition: fill 0.3s linear 0.05s;
-  fill: var(--bg-color);
-}
-
 .like-icon:active .core {
   fill: var(--heart-color);
 }
