@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="./styles/themes.css" />
     <script src="./scripts/set-theme.js"></script>
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="light dark" />
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="header__title">&lt;/HTML&gt;</h1>
-      <p class="header__paragraph">закрывающий тег</p>
+      <a class="header__logo">&lt;/HTML&gt;</a>
+      <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -536,6 +536,7 @@
       </article>
 
       <button
+        type="button"
         class="save__button button"
         onclick="window['dialog'].showModal()"
         aria-controls="dialog"
